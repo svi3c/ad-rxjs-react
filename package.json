@@ -1,0 +1,24 @@
+{
+  "name": "awesome-developer-resources",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "workspaces": [
+    "examples/*"
+  ],
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,css,md}": "prettier --write"
+  },
+  "prettier": {
+    "printWidth": 60
+  }
+}
