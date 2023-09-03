@@ -29,7 +29,7 @@ function App() {
           </strong>
         </h2>
         <button
-          className="p-2 font-bold text-white font-bold bg-mariner-500 hover:bg-mariner-700"
+          className="p-2 font-bold text-white bg-mariner-500 hover:bg-mariner-700"
           onClick={() =>
             setIdx((idx + 1) % components.length)
           }
