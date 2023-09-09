@@ -1,0 +1,19 @@
+html {
+  --color-mariner-50: #fdfdfe;
+  --color-mariner-100: #e7edf9;
+  --color-mariner-200: #bacbee;
+  --color-mariner-300: #8daae2;
+  --color-mariner-400: #6088d7;
+  --color-mariner-500: #3367cc;
+  --color-mariner-600: #2952a3;
+  --color-mariner-700: #1f3e7a;
+  --color-mariner-800: #142952;
+  --color-mariner-900: #0a1529;
+  --color-mariner-950: #050a14;
+}
+
+body {
+  background: var(--color-mariner-950);
+  color: var(--color-mariner-50);
+  margin: 0;
+}
