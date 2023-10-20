@@ -7,9 +7,6 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-  "workspaces": [
-    "examples/*"
-  ],
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",

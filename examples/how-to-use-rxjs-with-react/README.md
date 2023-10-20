@@ -5,6 +5,6 @@ This project is the basis for my blog post at https://awesome-developer.com/blog
 ## Give it a try
 
 ```bash
-npm i
-npm run dev
+bun install
+bun dev
 ```
