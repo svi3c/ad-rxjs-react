@@ -1,0 +1,22 @@
+{
+  "name": "fast-web-server-with-bun",
+  "module": "index.ts",
+  "scripts": {
+    "start:bun": "bun bun-servers.ts",
+    "start:node": "esbuild node-servers.ts --bundle --outdir=dist --platform=node && node dist/node-servers.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "bun-types": "latest",
+    "esbuild": "^0.19.5",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "elysia": "^0.7.17",
+    "express": "^4.18.2",
+    "fastify": "^4.24.3"
+  },
+  "trustedDependencies": [
+    "esbuild"
+  ]
+}
