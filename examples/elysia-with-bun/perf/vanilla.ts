@@ -15,7 +15,7 @@ export async function startVanilla() {
             );
           }
           return new Response(
-            file("./servers/fixtures/large-json.json"),
+            file("./perf/fixtures/large-json.json"),
             {
               headers: {
                 "Content-Type": "application/json",

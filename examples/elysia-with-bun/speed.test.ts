@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import largeJson from "./servers/fixtures/large-json.json";
+import largeJson from "./perf/fixtures/large-json.json";
 
 const RUNS = 10_000;
 

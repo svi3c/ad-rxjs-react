@@ -7,7 +7,7 @@ export async function startElysia() {
     new Elysia()
       .get("/", () => "Hello World!")
       .get("/json", () =>
-        file("./servers/fixtures/large-json.json"),
+        file("./perf/fixtures/large-json.json"),
       )
       .post(
         "/json",

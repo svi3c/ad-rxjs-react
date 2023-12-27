@@ -1,9 +1,9 @@
 {
-  "name": "fast-web-server-with-bun",
+  "name": "elysia-with-bun",
   "module": "index.ts",
   "scripts": {
-    "start:bun": "bun bun-servers.ts",
-    "start:node": "esbuild node-servers.ts --bundle --outdir=dist --platform=node && node dist/node-servers.js"
+    "start:bun": "bun ./perf/bun-servers.ts",
+    "start:node": "esbuild ./perf/node-servers.ts --bundle --outdir=dist --platform=node && node dist/node-servers.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.20",
@@ -12,6 +12,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@elysiajs/eden": "^0.7.7",
     "elysia": "^0.7.17",
     "express": "^4.18.2",
     "fastify": "^4.24.3"
