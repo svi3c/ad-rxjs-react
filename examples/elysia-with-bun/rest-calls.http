@@ -1,0 +1,7 @@
+POST http://localhost:9001/a/b/123?y=foo
+Content-Type: application/json
+Referer: a
+
+{
+  "z": "x"
+}
