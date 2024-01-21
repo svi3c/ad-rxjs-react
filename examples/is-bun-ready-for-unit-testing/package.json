@@ -1,0 +1,12 @@
+{
+  "name": "is-bun-ready-for-unit-testing",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitest": "^1.2.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
