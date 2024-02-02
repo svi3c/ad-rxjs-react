@@ -4,12 +4,13 @@ import {
   describe,
   it,
 } from "bun:test";
-import { useFakeTimers, type SinonFakeTimers } from "sinon";
+import { useFakeTimers } from "sinon";
+import { sleep } from "./sleep";
 
-let clock: SinonFakeTimers;
+const clock = useFakeTimers();
 
 beforeEach(() => {
-  clock = useFakeTimers();
+  clock.reset();
 });
 
 afterEach(() => {
@@ -21,10 +22,7 @@ describe("fake timers", () => {
     const sleeping = sleep(1000);
 
     clock.tick(1000);
-    await sleeping;
-  }, 100);
-});
 
-function sleep(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
+    await sleeping;
+  }, 10);
+});
