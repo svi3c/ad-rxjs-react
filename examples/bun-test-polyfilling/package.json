@@ -3,9 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@sinonjs/fake-timers": "^11.2.2",
     "@types/bun": "latest",
-    "@types/sinon": "^17.0.3",
-    "sinon": "^17.0.1"
+    "@types/sinonjs__fake-timers": "^8.1.5",
+    "vitest": "^1.2.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

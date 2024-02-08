@@ -1,15 +1,10 @@
-# bun-test-polyfilling
+# Fake Timers in Bun Test
 
-To install dependencies:
+This project is the basis for my blog post at https://js2brain.com/blog/fake-timers-in-bun-test.
+
+## Give it a try
 
 ```bash
 bun install
+bun test
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.24. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
