@@ -2,16 +2,13 @@
   "name": "notion-api",
   "module": "index.ts",
   "type": "module",
-  "devDependencies": {
-    "@sinonjs/fake-timers": "^11.2.2",
-    "@types/bun": "^1.0.5",
-    "@types/sinonjs__fake-timers": "^8.1.5",
-    "vitest": "^1.2.2"
-  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.14"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
   }
 }
