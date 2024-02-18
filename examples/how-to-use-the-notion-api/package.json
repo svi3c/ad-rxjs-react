@@ -1,5 +1,5 @@
 {
-  "name": "notion-api",
+  "name": "how-to-use-the-notion-api",
   "module": "index.ts",
   "type": "module",
   "peerDependencies": {
