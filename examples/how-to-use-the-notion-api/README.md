@@ -1,10 +1,3 @@
-# Fake Timers in Bun Test
+# How to Use the Notion API
 
-This project is the basis for my blog post at https://js2brain.com/blog/fake-timers-in-bun-test.
-
-## Give it a try
-
-```bash
-bun install
-bun test
-```
+This project is the basis for my blog post at https://js2brain.com/blog/how-to-use-the-notion-api.
