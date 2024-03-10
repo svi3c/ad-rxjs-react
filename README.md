@@ -1,3 +1,3 @@
-# Awesome Developer Content
+# JS 2 brain Content
 
-This repository holds some resources for my content at https://awesome-developer.com/.
+This repository holds some resources for the content at https://js2brain.com.
