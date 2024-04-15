@@ -1,0 +1,15 @@
+{
+  "name": "building-typesafe-sql-queries-in-bun",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "kysely": "^0.27.3",
+    "kysely-bun-worker": "^0.6.0"
+  }
+}
