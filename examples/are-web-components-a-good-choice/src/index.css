@@ -1,0 +1,49 @@
+html {
+  --color-mariner-50: #fdfdfe;
+  --color-mariner-100: #e7edf9;
+  --color-mariner-200: #bacbee;
+  --color-mariner-300: #8daae2;
+  --color-mariner-400: #6088d7;
+  --color-mariner-500: #3367cc;
+  --color-mariner-600: #2952a3;
+  --color-mariner-700: #1f3e7a;
+  --color-mariner-800: #142952;
+  --color-mariner-900: #0a1529;
+  --color-mariner-950: #050a14;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    avenir next,
+    avenir,
+    segoe ui,
+    helvetica neue,
+    helvetica,
+    Cantarell,
+    Ubuntu,
+    roboto,
+    noto,
+    arial,
+    sans-serif;
+}
+
+body {
+  background: var(--color-mariner-950);
+  color: var(--color-mariner-50);
+  margin: 0;
+  padding: 1em;
+}
+
+a {
+  color: var(--color-mariner-500);
+  text-decoration: none;
+}
+
+button {
+  color: var(--color-mariner-500);
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid var(--color-mariner-500);
+  margin: 1em 0;
+  cursor: pointer;
+}

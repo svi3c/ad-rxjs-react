@@ -1,0 +1,22 @@
+{
+  "name": "are-web-components-a-good-choice",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^14.12.3",
+    "@types/bun": "latest",
+    "lit-analyzer": "^2.0.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  },
+  "dependencies": {
+    "@lit-labs/ssr-client": "^1.1.7",
+    "lit": "^3.1.4"
+  }
+}
