@@ -1,6 +1,6 @@
-# How to use RxJS with React
+# Are Web Components a good choice?
 
-This project is the basis for my blog post at https://awesome-developer.com/blog/lit-web-components-on-fire.
+This project is the basis for my blog post at https://awesome-developer.com/blog/are-web-components-a-good-choice.
 
 ## Give it a try
 
